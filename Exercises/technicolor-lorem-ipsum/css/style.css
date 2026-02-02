@@ -7,30 +7,30 @@ body {
     font-family: sans-serif;
 }
 
-#p-1{
+#p-1 {
     background-color: aqua;
-    color:crimson;
+    color: crimson;
 }
-#s-1{
-    background-color:black;
-    color:yellow
+#s-1 {
+    background-color: black;
+    color: yellow;
 }
 
-#p-2{
+#p-2 {
     background-color: orange;
-    color:blue;
+    color: blue;
 }
 
-#s-2{
-    background-color:forestgreen;
+#s-2 {
+    background-color: forestgreen;
     color: white;
 }
 
-#p-3{
+#p-3 {
     background-color: greenyellow;
-    color:blueviolet;
+    color: blueviolet;
 }
-#s-3{
-    background-color:aquamarine;
+#s-3 {
+    background-color: aquamarine;
     color: palevioletred;
 }
