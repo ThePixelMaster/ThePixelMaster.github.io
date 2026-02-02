@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1{
+    background-color: aqua;
+    color:crimson;
+}
+#s-1{
+    background-color:black;
+    color:yellow
+}
+
+#p-2{
+    background-color: orange;
+    color:blue;
+}
+
+#s-2{
+    background-color:forestgreen;
+    color: white;
+}
+
+#p-3{
+    background-color: greenyellow;
+    color:blueviolet;
+}
+#s-3{
+    background-color:aquamarine;
+    color: palevioletred;
+}

@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+P{
+    background-color: aliceblue;
+    color:blueviolet;
+    padding: 10px;
+}
+
+#p-1{
+    color:chartreuse;
+    margin:10px;
+}
