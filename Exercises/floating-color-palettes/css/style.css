@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.swatch h4 {
+    margin: 0px;
+}
+
+.swatch {
+    background-color: rgb(234, 237, 219);
+    margin: 30px;
+    padding: 38px;
+    text-align: center;
+    box-shadow: 5px 5px 10px (#2b193d);
+}
+
+.swatches {
+    padding: 20px;
+}
+
+.swatches-white {
+    padding: 20px;
+    color: white;
+}
+
+.swatch-title {
+    color: white;
+}
+
+#swatch-1 {
+    background: linear-gradient(#2B193d, #C5979d);
+}
+
+#swatch1-1 {
+    background-color: #2B193D;
+}
+
+#swatch1-2 {
+    background-color: #2C365E;
+}
+
+#swatch1-3 {
+    background-color: #484D6D;
+}
+
+#swatch1-4 {
+    background-color: #4B8F8C;
+}
+
+#swatch1-5 {
+    background-color: #C5979D;
+}
+
+.swatch {
+    background-color: rgb(234, 237, 219);
+    margin: 30px;
+    padding: 38px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.swatches {
+    padding: 20px;
+}
+
+.swatches-white {
+    padding: 20px;
+    color: white;
+}
+
+.swatch-title {
+    color: white;
+}
+
+#swatch-2 {
+    background: linear-gradient(#2A2B2E, #87FF65);
+}
+
+#swatch2-1 {
+    background-color: #2A2B2E;
+}
+
+#swatch2-2 {
+    background-color: #5A5A66;
+}
+
+#swatch2-3 {
+    background-color: #A4C2A8;
+}
+
+#swatch2-4 {
+    background-color: #ACEB98;
+}
+
+#swatch2-5 {
+    background-color: #87FF65;
+}
+
+.swatch {
+    background-color: rgb(234, 237, 219);
+    margin: 30px;
+    padding: 38px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #333333;
+}
+
+.swatches {
+    padding: 20px;
+}
+
+.swatches-white {
+    padding: 20px;
+    color: white;
+}
+
+.swatch-title {
+    color: white;
+}
+
+#swatch-3 {
+    background: linear-gradient(#D8A7CA, #4ae8db);
+}
+
+#swatch3-1 {
+    background-color: #4EFFEF;
+}
+
+#swatch3-2 {
+    background-color: #73A6AD;
+}
+
+#swatch3-3 {
+    background-color: #9B97B2;
+}
+
+#swatch3-4 {
+    background-color: #D8A7CA;
+}
+
+#swatch3-5 {
+    background-color: #C7B8EA;
+}
