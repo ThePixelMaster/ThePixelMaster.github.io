@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: darkgray;
+    font-size: 0px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+    border: 20px outset rgb(220, 6, 6);
+}
+
+.orange {
+    background-color: orange;
+    border: 20px outset rgb(234, 131, 5);
+}
+
+.yellow {
+    background-color: gold;
+    border: 20px outset goldenrod;
+}
+
+.green {
+    background-color: forestgreen;
+    border: 20px outset green;
+}
+
+.aqua {
+    background-color: aqua;
+    border: 20px outset rgb(2, 226, 226);
+}
+
+.blue {
+    background-color: blue;
+    border: 20px outset navy;
+}
+
+.purple {
+    background-color: blueviolet;
+    border: 20px outset rgb(112, 35, 185);
+}
