@@ -39,7 +39,12 @@ background-color: palegreen
 .pink {
 background-color: pink;
 }
-
+x
 .yellow {
 background-color: palegoldenrod;
+}
+
+.img {
+    height: 100%;
+    display: inline-block;
 }
