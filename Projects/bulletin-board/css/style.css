@@ -1,0 +1,45 @@
+/*
+NOTE TO STUDENTS: 
+
+This is the file you should be writing your CSS in 
+for the Bulletin Board assignment.
+
+Good luck, and have fun!
+*/
+body {
+margin: 0px;
+
+}
+
+#bulletin-board {
+width: 800px;
+min-height: 100vh;
+}
+
+.post-it {
+display: inline-block;
+width: 175px;
+height: 175px;
+margin: 24px;
+padding: 24px;
+vertical-align: top;
+font-family: monospace;
+font-size: 16px;
+}
+
+.blue {
+background-color: paleturquoise;
+margin: 5px;
+}
+
+.green {
+background-color: palegreen
+}
+
+.pink {
+background-color: pink;
+}
+
+.yellow {
+background-color: palegoldenrod;
+}
