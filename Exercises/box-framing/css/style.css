@@ -9,22 +9,18 @@ font-family: sans-serif;
 
 div {
 border: 10px black;
-margin: 24px 0px;
-display: blockx
+margin: 24px 24px;
+display: inline-block;
 }
 
-.parent {
-display: inline
-}
-
-#wave {
+#frame1 {
 border: 10px white;
 background-color: rgb(255, 251, 243);
 padding: 10px;
 margin: 10px;
 }
 
-#scream {
+#frame2 {
 border: 10px white;
 background-color: rgb(255, 251, 243);
 padding: 10px;
@@ -32,43 +28,28 @@ margin: 10px;
 border-radius: 50%;
 }
 
-h4 {
+p {
 margin-inline: 20px;
 text-align: center;
 width: 230px;
 }
 
-#text {
+#frame3 {
 border: 10px white;
 background-color: rgb(255, 251, 243);
 padding: 10px;
 margin: 10px
 }
 
-#frame1 {
-border: 20px rgb(99, 45, 23);
-background-color: rgb(99, 45, 23);
-margin: 20px;
-width: 295px;
-box-shadow: 6px 6px 20px black;
+.rectangle-frame {
+    border: 20px;
+    background-color: rgb(129, 65, 42);
+    box-shadow: 6px 6px 10px black;
 }
 
-#frame2 {
-border: 20px rgb(99, 45, 23);
-background-color: rgb(99, 45, 23);
-margin: 20px;
-width: 210px;
-height: 210px;
-border-radius: 50%;
-box-shadow: 6px 6px 20px black;
-}
-
-#frame3 {
-border: 20px rgb(99, 45, 23);
-background-color: rgb(99, 45, 23);
-margin: 20px;
-padding: 1px;
-width: 250px;
-height: 80px;
-box-shadow: 6px 6px 20px black;
+.round-frame {
+    border: 20px;
+    background-color: rgb(129, 65, 42);
+    box-shadow: 6px 6px 10px black;
+    border-radius: 50%;
 }
