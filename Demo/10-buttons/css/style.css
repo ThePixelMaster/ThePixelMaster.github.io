@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#section2 {
+    width: 300px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    min-width: 120px;
+    text-align: center;
+}
+
+.simple {
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 155);
+    padding: 5px 12px;
+}
+
+.background {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.border {
+    color: rgb(37, 119, 251);
+    border: 3px solid rgb(37, 119, 251);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
