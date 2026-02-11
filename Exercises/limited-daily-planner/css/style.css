@@ -6,6 +6,8 @@ body {
     margin: 10px;
     padding: 0px 10px;
     font-family: sans-serif;
+    max-width: 600px;
+    display: block;
 }
 
 li {
@@ -38,7 +40,7 @@ li {
 }
 
 .important {
-    color: red
+    color: red;
 }
 
 .important.done {
