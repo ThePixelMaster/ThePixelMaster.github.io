@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(233, 229, 211);
+    color: rgb(1, 1, 93);
+}
+
+.center-column {
+    background-color: lightblue;
+
+    max-width: 600px;
+
+    margin: 0px auto; 
+
+    padding: 20px;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    font-weight: bolder;
+    color: rgb(1, 1, 93);
+}
+
+h3 {
+    font-weight: lighter;
+    color: rgb(1, 1, 93);
+}
