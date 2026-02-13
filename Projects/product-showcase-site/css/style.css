@@ -15,36 +15,37 @@ body {
     background-color: rgb(248, 241, 231);
 }
 
-div {
+.section {
     display: block;
     text-align: center;
-    width: 800px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 0px;
 }
 
-.section1 {
+.one{
+    background: 2000px;
     background-color: #198738;
     color: rgb(248, 241, 231);
 }
 
-.section2 {
+.two {
     background-color: #FE8730;
     color: #512215;
 }
 
-.section3 {
+.three {
     background-color: #512215;
     color: rgb(248, 241, 231);
 }
 
-.section4 {
+.four {
     background-color: #D82300;
     color: rgb(248, 241, 231);
 }
 
-.section5 {
+.five {
     background-color: #FEAA01;
     color: #512215;
 }
