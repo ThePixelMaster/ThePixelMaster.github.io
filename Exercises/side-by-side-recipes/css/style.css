@@ -4,11 +4,9 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
 }
 
 #center-single {
-    display: flex;
     max-width: 1000px;
     margin: 0px auto;
 }
@@ -17,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     margin: 48px 0px;
+    
 }
 
 .side-by-side .image-container {
@@ -30,4 +29,52 @@ body {
 
 .side-by-side .image-container img {
     width: 100%;
+}
+
+.side-by-side .text-container a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 12px 24px;
+}
+
+a.button {
+    background-color: white;
+    border: 3px solid black;
+    transition:
+        background-color 0.5s,
+        border 0.5s;
+}
+
+/* hover state with inverted colors */
+a.button:hover {
+    background-color: black;
+    border: 3px solid white;
+}
+
+.three-cards {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    gap: 20px;
+}
+
+.card {
+    width: 400px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#header {
+    text-align: center;
 }
