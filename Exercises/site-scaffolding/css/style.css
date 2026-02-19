@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.center-single {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 81, 0);
+    box-shadow: 0px 5px black;
+}
+
+#navbar {
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    color: white;
+    padding: 24px;
+    text-decoration: none;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#logo {
+    font-size: 32px;
+}
+
+.cta-button {
+    background-color: white;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+span {
+    color: darkorange
+}

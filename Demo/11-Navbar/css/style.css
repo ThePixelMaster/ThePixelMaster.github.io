@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    padding-right: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+    padding: 24px;
+    text-decoration: none;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+.cta-button {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 40px;
+}
