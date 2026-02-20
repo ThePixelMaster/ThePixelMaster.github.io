@@ -10,24 +10,25 @@ body {
 }
 .two-column {
     display: flex;
+    justify-content: center;
 }
 
 #center-column {
     background-color: lightblue;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0px auto; 
-    padding: 20px;
-    flex: 2;
-}
-
-#side-column {
-    max-width: 600px;
-    margin: 0px auto; 
-    padding: 20px;
+    padding: 30px;
     flex: 1;
 }
 
-a {
+#side-column {
+    max-width: 300px;
+    margin: 0px auto;
+    flex: 1;
+    padding: 20px;
+}
+
+#side-column a {
     text-decoration: none;
 }
 
@@ -83,4 +84,5 @@ li {
 #sticky {
     position: sticky;
     top: 24px;
+    margin: -20px
 }
