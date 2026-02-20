@@ -15,15 +15,13 @@ body {
 
 #center-column {
     background-color: lightblue;
-    max-width: 1200px;
-    margin: 0px auto; 
+    max-width: 1200px; 
     padding: 30px;
     flex: 1;
 }
 
 #side-column {
     max-width: 300px;
-    margin: 0px auto;
     flex: 1;
     padding: 20px;
 }
@@ -75,7 +73,7 @@ li {
 #side-head {
     background-color: navy;
     border: 5px solid navy;
-    padding: 20px
+    padding: 20px;
 }
 
 #hddr {
