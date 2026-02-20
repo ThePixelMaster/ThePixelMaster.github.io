@@ -8,15 +8,27 @@ body {
     background-color: rgb(233, 229, 211);
     color: rgb(1, 1, 93);
 }
+.two-column {
+    display: flex;
+}
 
-.center-column {
+#center-column {
     background-color: lightblue;
-
     max-width: 600px;
-
     margin: 0px auto; 
-
     padding: 20px;
+    flex: 2;
+}
+
+#side-column {
+    max-width: 600px;
+    margin: 0px auto; 
+    padding: 20px;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
 }
 
 img {
@@ -46,4 +58,29 @@ h5 {
 
 .heading {
     margin-bottom: 20px;
+}
+
+li {
+    list-style: none;
+    background-color: lightblue;
+    border-left: 5px solid navy;
+    border-right: 5px solid navy;
+    border-bottom: 3px solid navy;
+    border-top: 2px solid navy;
+    padding: 20px;
+}
+
+#side-head {
+    background-color: navy;
+    border: 5px solid navy;
+    padding: 20px
+}
+
+#hddr {
+    color: lightblue;
+}
+
+#sticky {
+    position: sticky;
+    top: 24px;
 }
