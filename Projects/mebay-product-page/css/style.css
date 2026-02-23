@@ -35,7 +35,7 @@ img {
 
 #product-info-column {
     width: 400px;
-    padding: 10px 0px;
+    padding: 15px 5px;
 }
 
 .thumbnail {
@@ -43,7 +43,7 @@ img {
 }
 
 #header {
-    margin: 5px;
+    margin: 5px 0px;
     border-bottom: 3px solid lightgray;
     padding: 10px 0px;
 }
