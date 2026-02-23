@@ -83,3 +83,7 @@ a {
     padding: 10px 12px;
     margin: 10px 0px;
 }
+
+#img1 {
+    border: 3px solid black;
+}
