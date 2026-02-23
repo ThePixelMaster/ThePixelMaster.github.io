@@ -45,12 +45,17 @@ img {
 #header {
     margin: 5px;
     border-bottom: 3px solid lightgray;
+    padding: 10px 0px;
 }
 
 #desc {
     color: darkgray;
-    border-bottom: 1px solid lightgray;
-    padding: 10px 0px;
+    padding: 0px 0px;
+}
+
+#desc2 {
+    padding: 5px 0px;
+    border-bottom: 1px solid darkgray;
 }
 
 a {
@@ -72,7 +77,7 @@ a {
     border-radius: 30px;
     background-color: blue;
     padding: 10px 20px;
-    margin: 4px 0px;
+    margin: 3px 0px;
 }
 
 .add {
@@ -81,7 +86,7 @@ a {
     border-radius: 30px;
     background-color: white;
     padding: 10px 12px;
-    margin: 4px 0px;
+    margin: 3px 0px;
 }
 
 #img1 {
