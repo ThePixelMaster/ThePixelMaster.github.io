@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(223, 236, 244);
+}
+
+/* Center Column content & Container */
+
+.single-column {
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background-color: rgb(188, 200, 210);
+    border: 10px solid rgb(25, 25, 111);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#centered {
+    text-align: center;
+}
+
+#bowl {
+    font-size: 48px;
+    background-color: rgb(198, 212, 223);
+    border: 5px solid rgb(223, 236, 244);
+    border-radius: 10px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sub-bowl {
+    font-size: 26px;
+}
+
+/* Side by Side content */
+
+#side-by-side {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img-contain {
+    flex: 1;
+    margin: 20px;
+}
+
+.size-mgmt {
+    max-height: 250px;
+    width: auto;
+}
+
+.team {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#middle {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+}
+
+#vs {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#time {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#bash {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+#bash2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+#local {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#invites a {
+    display: inline-block;
+    background-color: rgb(25, 25, 111);
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 0px 25px;
+    padding: 10px 20px;
+    color: rgb(223, 236, 244);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+/* hover state with inverted colors */
+
+#invites a:hover {
+    background-color: rgb(223, 236, 244);
+    color: rgb(25, 25, 111);
+}
+
+#questions {
+    margin: 40px 30px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Extras */
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
