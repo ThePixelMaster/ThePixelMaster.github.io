@@ -9,7 +9,7 @@ body {
 }
 
 #gallery-page {
-   color: black; 
+    color: black; 
 }
 
 .hero {
@@ -23,7 +23,7 @@ body {
     align-items: center;
     width: 100%;
     max-height: 600px;
-    max-width: 1400px
+    max-width: 1400px;
 }
 
 .hero img {
