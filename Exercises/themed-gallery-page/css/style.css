@@ -31,14 +31,15 @@ body {
 }
 
 .hero #hero-content {
-    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: rgb(255, 255, 255);
     font-size: 60px;
+    padding: 5px;
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(251, 188, 198));
     width: 100vh;
-    display: grid;
-    align-items: end;
-    height: 0px;
     text-shadow: 4px  0px rgb(175, 33, 123);
     transform: scaleX(-1);
 }
