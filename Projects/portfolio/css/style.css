@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* MAIN PAGE */
+
+#gallery-page {
+    color: black; 
+}
+
+.hero {
+    background-image: url("../images/urban-hi-res-2nse.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    max-height: 700px;
+    max-width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero #hero-content {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 200px;
+    text-decoration: none;
+}
+
+.single-column {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    background-color: white;
+    border: 10px solid rgb(26, 26, 26);
+    margin: 48px auto;
+    text-align: center;
+}
+
+#gallery img {
+    width: 100%;
+    margin: 5px;
+}
+
+
+.heading1 {
+    font-size: 60px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-decoration: none;
+    padding: 16px;
+}
+
+
+/* THREE CARDS */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    padding: 8px;
+    gap: 20px;
+
+}
+
+.card {
+    width: 400px;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    border-radius: 30px;
+}
+
+.first {
+    color: rgb(26, 26, 26);
+    border: 10px solid rgb(26, 26, 26);
+    width: 100%;
+    height: 100%;
+}
+
+.first img {
+    object-fit: cover;
+}
+
+.second {
+    color: rgb(26, 26, 26);
+    border: 10px solid rgb(26, 26, 26);
+    width: 100%;
+    height: 100%;
+}
+
+.second img {
+    object-fit: cover;
+}
+
+.third {
+    color: rgb(26, 26, 26);
+    border: 10px solid rgb(26, 26, 26);
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    color: rgb(243, 243, 243);
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 26);
+    padding: 5px 12px;
+}
+
+
+
+/* MOBILE BREAKPOINT */
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        background-color: white;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero #hero-content{
+        font-size: 36px;
+    }
+
+    #gallery {
+        flex-direction: column;
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+}
