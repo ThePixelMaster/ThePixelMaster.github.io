@@ -59,6 +59,7 @@ body {
     border: 10px solid rgb(26, 26, 26);
     margin: 48px auto;
     text-align: center;
+    gap: 20px;
 }
 
 #gallery img {
